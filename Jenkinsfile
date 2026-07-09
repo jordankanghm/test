@@ -9,7 +9,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/<your-username>/hello-world-webapp.git'
+                    url: 'https://github.com/jordankanghm/hello-world-webapp.git'
                     // add credentialsId: 'github-creds' here if repo is private
             }
         }
